@@ -1,0 +1,18 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+Resultado Final	
+{% endblock %}
+
+{% block content %}
+<h4>Su pago correspondiente a esta parte del juego es de {{ global_payoff }}
+    puntos.</h4>
+<br>
+<h4>Su payoff final es de {{ total_payoff }}.</h4>
+<br>
+<h4>La sesión ha finalizado. Muchas gracias por su participación.</h4>
+<br>
+ 
+{% endblock %}
+
